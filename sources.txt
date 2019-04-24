@@ -1,0 +1,16 @@
+msbot connect luis --name 'edui2018-luis' --appId "e5b2cb31-4f54-4c33-8018-2fc877521eb5" --authoringKey "1e773ef5fafb4f35b3e9784c8e19b3ae" --ver
+sion '0.1' --subscriptionKey '1e773ef5fafb4f35b3e9784c8e19b3ae'
+
+
+msbot connect qna --name 'edui2018-qna' --kbId "9e4b7d70-1387-456b-8483-db009387d067" --endpointKey "2face8c8-d144-4f9e-9447-6113e1e18a6d" --hostname "https://ecb-qna-service.azurewebsites.net/qnamaker" --subscriptionKey 'aa0d7e51-439c-4335-b909-c1ac9eacc8bb'
+
+
+msbot connect blob --name 'ecbblob' --tenantId 'wilmabrinkmeyergmail.onmicrosoft.com' --subscriptionId 'aa0d7e51-439c-4335-b909-c1ac9eacc8bb' --resourceGroup 'ecb' --connectionString 'DefaultEndpointsProtocol=https;AccountName=ecbbotservicestorage;AccountKey=Q3C2s+vV7rpIej75g4lFqaIMBuiv9P6BGUNVpyywJqSjumc2gPi/bHNFc6eAvkiBPXDKddLDs0k3KYz1N6Wyyg==;EndpointSuffix=core.windows.net' --container 'ecbblob' --serviceName 'ecbbotservicestorage'
+{
+  "type": "blob",              storage",
+  "name": "ecbblob",           mail.onmicrosoft.com",
+  "serviceName": "ecbbotservice39c-4335-b909-c1ac9eacc8bb",storage",
+  "tenantId": "wilmabrinkmeyergndpointsProtocol=https;AccountName=ecbbotservicestorage;AccountKey=Q3C2s+vV7rpIej75g4lFqaIMBuiv9mail.onmicrosoft.com",         vkiBPXDKddLDs0k3KYz1N6Wyyg==;EndpointSuffix=core.windows.net",
+  "subscriptionId": "aa0d7e51-439c-4335-b909-c1ac9eacc8bb",
+  "resourceGroup": "ecb",
+  "connectionString": "DefaultEndpointsProtocol=https;AccountName=ecbbotservicestorage;AccountKey=Q3C2s+vV7rpIej75g4lFqaIMBuiv9P6BGUNVpyywJqSjumc2gPi/bHNFc6eAvkiBPXDKddLDs0k3KYz1N6Wyyg==;EndpointSuffix=core.windows.net",  "container": "ecbblob",  "id": "224"}

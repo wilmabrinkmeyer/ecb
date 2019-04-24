@@ -32,6 +32,7 @@
     "botbuilder-dialogs": "^4.3.4",
     "botframework-config": "^4.3.4",
     "cheerio": "^1.0.0-rc.2",
+    "docx-parser": "^0.2.1",
     "dotenv": "^6.0.0",
     "metronical.proto": "^0.1.0",
     "moment": "^2.22.2",

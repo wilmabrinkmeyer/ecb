@@ -1,13 +1,12 @@
 {
-    "name": "edui2018",
-    "description": "",
-    "services": [
-        {
+  "version": "1.0",
+  "resources": [
+{
             "type": "endpoint",
             "name": "edui2018",
             "endpoint": "http://localhost:3978/api/messages",
             "appId": "",
-            "appPassword": "IbH+GtUnqmqx7hGjB9ZS1A==!+BE1mikzJYSkNiigERF7yo9WnU+RIMC8xzcZC+FbQnY=",
+            "appPassword": "(wqO4z0R45R92sE.R5$KVmg$t5cD1[X",
             "id": "35"
         },
         {
@@ -15,8 +14,8 @@
             "name": "edui2018-luis",
             "appId": "e5b2cb31-4f54-4c33-8018-2fc877521eb5",
             "version": "0.1",
-            "authoringKey": "5+s+k41Vm94ZcwDUX9e+bg==!JW3/2J51uFB7LgGIX3QPqE34WAJ7qrC2et1gBnqmyerik3f9au8ehpeN2BH37K1n",
-            "subscriptionKey": "cqI93Pu9/zDGuceqaM+6wA==!1Mk82cahR7rFMp1POZgfkXbJp0epHBY9YfSLbxA1YVvBDS9gdBPJQPpIE2yU+p2S",
+            "authoringKey": "1e773ef5fafb4f35b3e9784c8e19b3ae",
+            "subscriptionKey": "1e773ef5fafb4f35b3e9784c8e19b3ae",
             "region": "westus",
             "id": "209"
         },
@@ -24,29 +23,28 @@
             "type": "qna",
             "name": "edui2018-qna",
             "kbId": "9e4b7d70-1387-456b-8483-db009387d067",
-            "subscriptionKey": "ldWX4hnhICxVyd5mVnS18g==!2I0ob0ywLGaGbYJyt6PR6+y83CGt+P1tTSaWpdGSW+J23nRdtyxQ0zS/G7eIp0yK",
-            "endpointKey": "bZ1HH98sCcJjrUD2fqK6hw==!6Qw21KEFJXUO6ZknvAyTh9vB7eP0H55i1FbY4uj1orjBScQrLgdXyQGANQTNOtzJ",
+            "subscriptionKey": "aa0d7e51-439c-4335-b909-c1ac9eacc8bb",
+            "endpointKey": "2face8c8-d144-4f9e-9447-6113e1e18a6d",
             "hostname": "https://ecb-qna-service.azurewebsites.net/qnamaker",
             "id": "102"
         },
+        
         {
             "type": "abs",
             "id": "224",
             "name": "ecbblob",
-            "tenantId": "wilmabrinkmeyergmail.onmicrosoft.com",
+            "tenantId": "80938f41-fbcb-422d-88d2-4a40870030f8",
             "subscriptionId": "aa0d7e51-439c-4335-b909-c1ac9eacc8bb",
-            "resourceGroup": "ecb",
-            "appId": "7433d95f-2539-4472-b8c2-701946e1f25b"
+            "resourceGroup": "ecb"
         },
         {
             "type": "endpoint",
             "name": "edui2018-bot (2)",
             "id": "https://edui2018-bot.azurewebsites.net/api/messages",
             "appId": "7433d95f-2539-4472-b8c2-701946e1f25b",
-            "appPassword": "YPXsIIZxLOUp3hZysaQYGQ==!rxGPV2GDKlKO0A8TUY34gEtdmZ08rsm3sDEV+JEHxKs=",
+            "appPassword": "(wqO4z0R45R92sE.R5$KVmg$t5cD1[X",
             "endpoint": "https://ecb-bot-service.azurewebsites.net/api/messages"
         }
-    ],
-    "padlock": "XBkyjfP9uhiP9oPQ9ULNqA==!bvz8VOg80PMf0gQZnwFw+E5dkajIhzaN+EYJD/l6XhMtjgJbtPj+GXgEjM8Vmp/C",
-    "version": "2.0"
+  ]
 }
+
